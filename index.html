@@ -7,8 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
-
-    
 </head>
 <body>
     <header>
@@ -16,35 +14,40 @@
     </header>
 
     <main>
+        <div class="game">
+            <div class="game-board">
+                <div class="player">
+                    <h3>Player</h3>
+                    <div class="player-choice"></div>
+                </div>
+                <div class="computer">
+                    <h3>Computer</h3>
+                    <div class="computer-choice"></div>
+                </div>
+            </div>
+            <div class="choices">
+                <button class="rock">Rock</button>
+                <button class="paper">Paper</button>
+                <button class="scissors">Scissors</button>
+            </div>
+            <div class="result">
+                <p>Get those hands ready!!!</p>
+            </div>
+        </div>
+
         <section id="rules">
             <h2>Rules</h2>
             <ul>
                 <li>1. Rock beats scissors</li>
                 <li>2. Scissors beats Paper</li>
                 <li>3. Paper beats Rock</li>
-                
                 <li>Both players (player and computer in this case) choose one of the three options above. Rock, Paper, or Scissors.<br>
-                    The winner of the round is determined by comparing the choices made by the participants<br>
+                    The winner of the round is determined by comparing the choices made by the participants.<br>
                     If both participants choose the same option, it is a tie.</li>
             </ul>
         </section>
-
-        <div class="game">
-            <div class="choices">
-              <button class="rock">Rock</button>
-              <button class="paper">Paper</button>
-              <button class="scissors">Scissors</button>
-            </div>
-            <div class="result">
-              <p>Get those hands ready!!!</p>
-            </div>
-          </div>
-
-        
-
-
     </main>
-<script src="script.js"></script>    
-</body>
 
+    <script src="script.js"></script>
+</body>
 </html>
