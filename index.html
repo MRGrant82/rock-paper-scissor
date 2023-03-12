@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Document</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="reset.css>"
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
+
     
 </head>
 <body>
@@ -15,19 +16,29 @@
     </header>
 
     <main>
-        <section>
+        <section id="rules">
             <h2>Rules</h2>
             <ul>
-                <li>Rock beats scissors</li>
-                <li>Scissors beats Paper</li>
-                <li>Paper beats Rock</li>
+                <li>1. Rock beats scissors</li>
+                <li>2. Scissors beats Paper</li>
+                <li>3. Paper beats Rock</li>
+                
                 <li>Both players (player and computer in this case) choose one of the three options above. Rock, Paper, or Scissors.<br>
                     The winner of the round is determined by comparing the choices made by the participants<br>
                     If both participants choose the same option, it is a tie.</li>
             </ul>
         </section>
 
-        <div id="game-board"></div>
+        <div class="game">
+            <div class="choices">
+              <button class="rock">Rock</button>
+              <button class="paper">Paper</button>
+              <button class="scissors">Scissors</button>
+            </div>
+            <div class="result">
+              <p>Get those hands ready!!!</p>
+            </div>
+          </div>
 
         
 

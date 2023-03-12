@@ -1,0 +1,115 @@
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: lightgray;
+    z-index: 1; /* Add this line */
+    text-align:center;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+    display: flex;
+    height: 100vh;
+  }
+  
+  h1 {
+    margin-top: 20px;
+  }
+
+  h2 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .game {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 50vh;
+    
+  }
+  
+  .choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .choices button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .choices button:hover {
+    background-color: lightgray;
+  }
+  
+  .result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 10px;
+    margin-left:
+  }
+  
+  #rules {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+    background: gray;
+    position: fixed;
+    width: 45vh;
+    height: 30vh;
+    padding: 10px;
+    padding-top: 25px;
+    margin-left: 10px;
+    text-align: center;
+    transform: translateY(-50%);
+  }
+
+  #rules li {
+    margin-top: 5px;
+    text-align: center;
+    
+  }
+  
+  #rules li:nth-child(4) {
+    margin-top: 25px;
+  }
+  
+  .result { 
+    position: relative;
+    
+    }
+  
+  .choices button.rock {
+
+    background-color: rgb(107, 37, 37);
+}
+
+.choices button.paper {
+
+    background-color: light gray;
+}
+
+.choices button.scissors {
+
+    background-color: rgb(155, 143, 143);
+}
